@@ -33,3 +33,24 @@ Mostrar por pantalla el número de líneas que tiene el fichero.
 
 #### Actividad 11
 Mostrar por pantalla las primeras 4 lineas y las 2 últimas líneas del archivo.
+
+---
+### Ejercicios grupos/usuarios y permisos.
+
+#### Actividad 1
+Crea los grupos administradores y desarrolladores. Comprueba qúé GID  les asigna.
+
+#### Actividad 2 
+Crea los usuarios Pepe y Antonio. Estos usuarios deben pertenecer únicamente a lgrupo desarrolladores. Mira el fichero de definición de usuarios y comprueba que el grupo primario de estos usuarios es el que toca.
+
+#### Actividad 3
+Logueate como usuario pedro y crea el archivo adminitracion.txt al que únicamente tenga acceso pedro como lectura y escritura.
+
+#### Actividad 4
+Como usuario Antonio crea el directorio compartido en su directorio de trabajo, y crea los ficheros archivo1.txt, archivo2.txt, archivo3.txt
+
+#### Actividad 5
+Cambia el grupo propietario de archivos2.txt a desarrolladores.
+
+#### Actividad 6
+Elimina el usuario Antonio sin quitar su directorio personal y observa quién es el usuario propietario de la carpeta /home/Antonio
